@@ -731,139 +731,686 @@
     {
       "id": 1,
       "title": "Lektion 1: Alef bis He",
-      "letterIndices": [0, 1, 2, 3, 4]
+      "letterIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
     },
     {
       "id": 2,
       "title": "Lektion 2: Vav bis Yod",
-      "letterIndices": [5, 6, 7, 8, 9]
+      "letterIndices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
     },
     {
       "id": 3,
       "title": "Lektion 3: Kaf bis Ayin",
-      "letterIndices": [10, 11, 12, 13, 14, 15]
+      "letterIndices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
     },
     {
       "id": 4,
       "title": "Lektion 4: Pe bis Tav",
-      "letterIndices": [16, 17, 18, 19, 20, 21]
+      "letterIndices": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
     }
   ],
   "vocabulary": [
     {
       "category": "Begrüßung",
       "words": [
-        { "hebrew": "שָׁלוֹם", "latin": "shalom", "german": "Hallo / Frieden" },
-        { "hebrew": "לְהִתְרָאוֹת", "latin": "lehitraot", "german": "Auf Wiedersehen" },
-        { "hebrew": "תּוֹדָה", "latin": "todah", "german": "Danke" },
-        { "hebrew": "בְּבַקָּשָׁה", "latin": "bevakasha", "german": "Bitte" },
-        { "hebrew": "כֵּן", "latin": "ken", "german": "Ja" },
-        { "hebrew": "לֹא", "latin": "lo", "german": "Nein" },
-        { "hebrew": "סְלִיחָה", "latin": "slicha", "german": "Entschuldigung" },
-        { "hebrew": "בֹּקֶר טוֹב", "latin": "boker tov", "german": "Guten Morgen" },
-        { "hebrew": "לַיְלָה טוֹב", "latin": "lailah tov", "german": "Gute Nacht" },
-        { "hebrew": "מַה שְּׁלוֹמְךָ?", "latin": "ma shlomcha?", "german": "Wie geht es dir?" },
-        { "hebrew": "טוֹב", "latin": "tov", "german": "Gut" },
-        { "hebrew": "בָּרוּךְ הַבָּא", "latin": "baruch haba", "german": "Willkommen" }
+        {
+          "hebrew": "שָׁלוֹם",
+          "latin": "shalom",
+          "german": "Hallo / Frieden"
+        },
+        {
+          "hebrew": "לְהִתְרָאוֹת",
+          "latin": "lehitraot",
+          "german": "Auf Wiedersehen"
+        },
+        {
+          "hebrew": "תּוֹדָה",
+          "latin": "todah",
+          "german": "Danke"
+        },
+        {
+          "hebrew": "בְּבַקָּשָׁה",
+          "latin": "bevakasha",
+          "german": "Bitte"
+        },
+        {
+          "hebrew": "כֵּן",
+          "latin": "ken",
+          "german": "Ja"
+        },
+        {
+          "hebrew": "לֹא",
+          "latin": "lo",
+          "german": "Nein"
+        },
+        {
+          "hebrew": "סְלִיחָה",
+          "latin": "slicha",
+          "german": "Entschuldigung"
+        },
+        {
+          "hebrew": "בֹּקֶר טוֹב",
+          "latin": "boker tov",
+          "german": "Guten Morgen"
+        },
+        {
+          "hebrew": "לַיְלָה טוֹב",
+          "latin": "lailah tov",
+          "german": "Gute Nacht"
+        },
+        {
+          "hebrew": "מַה שְּׁלוֹמְךָ?",
+          "latin": "ma shlomcha?",
+          "german": "Wie geht es dir?"
+        },
+        {
+          "hebrew": "טוֹב",
+          "latin": "tov",
+          "german": "Gut"
+        },
+        {
+          "hebrew": "בָּרוּךְ הַבָּא",
+          "latin": "baruch haba",
+          "german": "Willkommen"
+        }
       ]
     },
     {
       "category": "Zahlen",
       "words": [
-        { "hebrew": "אֶחָד", "latin": "echad", "german": "1 - Eins" },
-        { "hebrew": "שְׁנַיִם", "latin": "shnayim", "german": "2 - Zwei" },
-        { "hebrew": "שְׁלֹשָׁה", "latin": "shlosha", "german": "3 - Drei" },
-        { "hebrew": "אַרְבָּעָה", "latin": "arba'ah", "german": "4 - Vier" },
-        { "hebrew": "חֲמִשָּׁה", "latin": "chamisha", "german": "5 - Fünf" },
-        { "hebrew": "שִׁשָּׁה", "latin": "shisha", "german": "6 - Sechs" },
-        { "hebrew": "שִׁבְעָה", "latin": "shiv'ah", "german": "7 - Sieben" },
-        { "hebrew": "שְׁמוֹנָה", "latin": "shmonah", "german": "8 - Acht" },
-        { "hebrew": "תִּשְׁעָה", "latin": "tish'ah", "german": "9 - Neun" },
-        { "hebrew": "עֲשָׂרָה", "latin": "asarah", "german": "10 - Zehn" }
+        {
+          "hebrew": "אֶחָד",
+          "latin": "echad",
+          "german": "1 - Eins"
+        },
+        {
+          "hebrew": "שְׁנַיִם",
+          "latin": "shnayim",
+          "german": "2 - Zwei"
+        },
+        {
+          "hebrew": "שְׁלֹשָׁה",
+          "latin": "shlosha",
+          "german": "3 - Drei"
+        },
+        {
+          "hebrew": "אַרְבָּעָה",
+          "latin": "arba'ah",
+          "german": "4 - Vier"
+        },
+        {
+          "hebrew": "חֲמִשָּׁה",
+          "latin": "chamisha",
+          "german": "5 - Fünf"
+        },
+        {
+          "hebrew": "שִׁשָּׁה",
+          "latin": "shisha",
+          "german": "6 - Sechs"
+        },
+        {
+          "hebrew": "שִׁבְעָה",
+          "latin": "shiv'ah",
+          "german": "7 - Sieben"
+        },
+        {
+          "hebrew": "שְׁמוֹנָה",
+          "latin": "shmonah",
+          "german": "8 - Acht"
+        },
+        {
+          "hebrew": "תִּשְׁעָה",
+          "latin": "tish'ah",
+          "german": "9 - Neun"
+        },
+        {
+          "hebrew": "עֲשָׂרָה",
+          "latin": "asarah",
+          "german": "10 - Zehn"
+        }
       ]
     },
     {
       "category": "Familie",
       "words": [
-        { "hebrew": "אָב", "latin": "av", "german": "Vater" },
-        { "hebrew": "אֵם", "latin": "em", "german": "Mutter" },
-        { "hebrew": "אָח", "latin": "ach", "german": "Bruder" },
-        { "hebrew": "אָחוֹת", "latin": "achot", "german": "Schwester" },
-        { "hebrew": "בֵּן", "latin": "ben", "german": "Sohn" },
-        { "hebrew": "בַּת", "latin": "bat", "german": "Tochter" },
-        { "hebrew": "סָבָא", "latin": "saba", "german": "Großvater" },
-        { "hebrew": "סָבְתָא", "latin": "savta", "german": "Großmutter" },
-        { "hebrew": "מִשְׁפָּחָה", "latin": "mishpacha", "german": "Familie" },
-        { "hebrew": "יֶלֶד", "latin": "yeled", "german": "Kind (m)" }
+        {
+          "hebrew": "אָב",
+          "latin": "av",
+          "german": "Vater"
+        },
+        {
+          "hebrew": "אֵם",
+          "latin": "em",
+          "german": "Mutter"
+        },
+        {
+          "hebrew": "אָח",
+          "latin": "ach",
+          "german": "Bruder"
+        },
+        {
+          "hebrew": "אָחוֹת",
+          "latin": "achot",
+          "german": "Schwester"
+        },
+        {
+          "hebrew": "בֵּן",
+          "latin": "ben",
+          "german": "Sohn"
+        },
+        {
+          "hebrew": "בַּת",
+          "latin": "bat",
+          "german": "Tochter"
+        },
+        {
+          "hebrew": "סָבָא",
+          "latin": "saba",
+          "german": "Großvater"
+        },
+        {
+          "hebrew": "סָבְתָא",
+          "latin": "savta",
+          "german": "Großmutter"
+        },
+        {
+          "hebrew": "מִשְׁפָּחָה",
+          "latin": "mishpacha",
+          "german": "Familie"
+        },
+        {
+          "hebrew": "יֶלֶד",
+          "latin": "yeled",
+          "german": "Kind (m)"
+        }
       ]
     },
     {
       "category": "Torah",
       "words": [
-        { "hebrew": "תּוֹרָה", "latin": "torah", "german": "Torah (Lehre)" },
-        { "hebrew": "אֱלֹהִים", "latin": "elohim", "german": "Gott" },
-        { "hebrew": "אֱמֶת", "latin": "emet", "german": "Wahrheit" },
-        { "hebrew": "חֶסֶד", "latin": "chesed", "german": "Güte/Gnade" },
-        { "hebrew": "צֶדֶק", "latin": "tsedek", "german": "Gerechtigkeit" },
-        { "hebrew": "מִצְוָה", "latin": "mitsvah", "german": "Gebot" },
-        { "hebrew": "שַׁבָּת", "latin": "shabbat", "german": "Sabbat" },
-        { "hebrew": "תְּפִלָּה", "latin": "tefillah", "german": "Gebet" },
-        { "hebrew": "בְּרָכָה", "latin": "bracha", "german": "Segen" },
-        { "hebrew": "נָבִיא", "latin": "navi", "german": "Prophet" },
-        { "hebrew": "כֹּהֵן", "latin": "kohen", "german": "Priester" },
-        { "hebrew": "קָדוֹשׁ", "latin": "kadosh", "german": "heilig" },
-        { "hebrew": "רוּחַ", "latin": "ruach", "german": "Geist/Wind" },
-        { "hebrew": "נֶפֶשׁ", "latin": "nefesh", "german": "Seele" }
+        {
+          "hebrew": "תּוֹרָה",
+          "latin": "torah",
+          "german": "Torah (Lehre)"
+        },
+        {
+          "hebrew": "אֱלֹהִים",
+          "latin": "elohim",
+          "german": "Gott"
+        },
+        {
+          "hebrew": "אֱמֶת",
+          "latin": "emet",
+          "german": "Wahrheit"
+        },
+        {
+          "hebrew": "חֶסֶד",
+          "latin": "chesed",
+          "german": "Güte/Gnade"
+        },
+        {
+          "hebrew": "צֶדֶק",
+          "latin": "tsedek",
+          "german": "Gerechtigkeit"
+        },
+        {
+          "hebrew": "מִצְוָה",
+          "latin": "mitsvah",
+          "german": "Gebot"
+        },
+        {
+          "hebrew": "שַׁבָּת",
+          "latin": "shabbat",
+          "german": "Sabbat"
+        },
+        {
+          "hebrew": "תְּפִלָּה",
+          "latin": "tefillah",
+          "german": "Gebet"
+        },
+        {
+          "hebrew": "בְּרָכָה",
+          "latin": "bracha",
+          "german": "Segen"
+        },
+        {
+          "hebrew": "נָבִיא",
+          "latin": "navi",
+          "german": "Prophet"
+        },
+        {
+          "hebrew": "כֹּהֵן",
+          "latin": "kohen",
+          "german": "Priester"
+        },
+        {
+          "hebrew": "קָדוֹשׁ",
+          "latin": "kadosh",
+          "german": "heilig"
+        },
+        {
+          "hebrew": "רוּחַ",
+          "latin": "ruach",
+          "german": "Geist/Wind"
+        },
+        {
+          "hebrew": "נֶפֶשׁ",
+          "latin": "nefesh",
+          "german": "Seele"
+        }
       ]
     },
     {
       "category": "Natur",
       "words": [
-        { "hebrew": "מַיִם", "latin": "mayim", "german": "Wasser" },
-        { "hebrew": "אֵשׁ", "latin": "esh", "german": "Feuer" },
-        { "hebrew": "אֶרֶץ", "latin": "erets", "german": "Erde/Land" },
-        { "hebrew": "שָׁמַיִם", "latin": "shamayim", "german": "Himmel" },
-        { "hebrew": "אוֹר", "latin": "or", "german": "Licht" },
-        { "hebrew": "עֵץ", "latin": "etz", "german": "Baum" },
-        { "hebrew": "יָם", "latin": "yam", "german": "Meer" },
-        { "hebrew": "הַר", "latin": "har", "german": "Berg" },
-        { "hebrew": "כּוֹכָב", "latin": "kochav", "german": "Stern" },
-        { "hebrew": "יָרֵחַ", "latin": "yareach", "german": "Mond" }
+        {
+          "hebrew": "מַיִם",
+          "latin": "mayim",
+          "german": "Wasser"
+        },
+        {
+          "hebrew": "אֵשׁ",
+          "latin": "esh",
+          "german": "Feuer"
+        },
+        {
+          "hebrew": "אֶרֶץ",
+          "latin": "erets",
+          "german": "Erde/Land"
+        },
+        {
+          "hebrew": "שָׁמַיִם",
+          "latin": "shamayim",
+          "german": "Himmel"
+        },
+        {
+          "hebrew": "אוֹר",
+          "latin": "or",
+          "german": "Licht"
+        },
+        {
+          "hebrew": "עֵץ",
+          "latin": "etz",
+          "german": "Baum"
+        },
+        {
+          "hebrew": "יָם",
+          "latin": "yam",
+          "german": "Meer"
+        },
+        {
+          "hebrew": "הַר",
+          "latin": "har",
+          "german": "Berg"
+        },
+        {
+          "hebrew": "כּוֹכָב",
+          "latin": "kochav",
+          "german": "Stern"
+        },
+        {
+          "hebrew": "יָרֵחַ",
+          "latin": "yareach",
+          "german": "Mond"
+        }
+      ]
+    },
+    {
+      "category": "Essen & Trinken",
+      "words": [
+        {
+          "hebrew": "לֶחֶם",
+          "latin": "lechem",
+          "german": "Brot"
+        },
+        {
+          "hebrew": "יַיִן",
+          "latin": "yayin",
+          "german": "Wein"
+        },
+        {
+          "hebrew": "חָלָב",
+          "latin": "chalav",
+          "german": "Milch"
+        },
+        {
+          "hebrew": "דְּבַשׁ",
+          "latin": "dvash",
+          "german": "Honig"
+        },
+        {
+          "hebrew": "מֶלַח",
+          "latin": "melach",
+          "german": "Salz"
+        },
+        {
+          "hebrew": "פְּרִי",
+          "latin": "pri",
+          "german": "Frucht"
+        },
+        {
+          "hebrew": "בָּשָׂר",
+          "latin": "basar",
+          "german": "Fleisch"
+        },
+        {
+          "hebrew": "דָּג",
+          "latin": "dag",
+          "german": "Fisch"
+        },
+        {
+          "hebrew": "תַּפּוּחַ",
+          "latin": "tapuach",
+          "german": "Apfel"
+        },
+        {
+          "hebrew": "זַיִת",
+          "latin": "zayit",
+          "german": "Olive"
+        }
+      ]
+    },
+    {
+      "category": "Körper & Mensch",
+      "words": [
+        {
+          "hebrew": "לֵב",
+          "latin": "lev",
+          "german": "Herz"
+        },
+        {
+          "hebrew": "יָד",
+          "latin": "yad",
+          "german": "Hand"
+        },
+        {
+          "hebrew": "עַיִן",
+          "latin": "ayin",
+          "german": "Auge"
+        },
+        {
+          "hebrew": "פֶּה",
+          "latin": "peh",
+          "german": "Mund"
+        },
+        {
+          "hebrew": "רֹאשׁ",
+          "latin": "rosh",
+          "german": "Kopf"
+        },
+        {
+          "hebrew": "רֶגֶל",
+          "latin": "regel",
+          "german": "Fuß"
+        },
+        {
+          "hebrew": "אֹזֶן",
+          "latin": "ozen",
+          "german": "Ohr"
+        },
+        {
+          "hebrew": "דָּם",
+          "latin": "dam",
+          "german": "Blut"
+        },
+        {
+          "hebrew": "נְשָׁמָה",
+          "latin": "neshama",
+          "german": "Atem/Seele"
+        },
+        {
+          "hebrew": "אָדָם",
+          "latin": "adam",
+          "german": "Mensch"
+        }
+      ]
+    },
+    {
+      "category": "Zeit & Feiertage",
+      "words": [
+        {
+          "hebrew": "יוֹם",
+          "latin": "yom",
+          "german": "Tag"
+        },
+        {
+          "hebrew": "לַיְלָה",
+          "latin": "lailah",
+          "german": "Nacht"
+        },
+        {
+          "hebrew": "שָׁנָה",
+          "latin": "shanah",
+          "german": "Jahr"
+        },
+        {
+          "hebrew": "חֹדֶשׁ",
+          "latin": "chodesh",
+          "german": "Monat"
+        },
+        {
+          "hebrew": "שָׁבוּעַ",
+          "latin": "shavua",
+          "german": "Woche"
+        },
+        {
+          "hebrew": "פֶּסַח",
+          "latin": "pesach",
+          "german": "Pessach"
+        },
+        {
+          "hebrew": "סוּכּוֹת",
+          "latin": "sukkot",
+          "german": "Laubhüttenfest"
+        },
+        {
+          "hebrew": "רֹאשׁ הַשָּׁנָה",
+          "latin": "rosh hashana",
+          "german": "Neujahr"
+        },
+        {
+          "hebrew": "יוֹם כִּפּוּר",
+          "latin": "yom kippur",
+          "german": "Versöhnungstag"
+        },
+        {
+          "hebrew": "חֲנוּכָּה",
+          "latin": "chanukka",
+          "german": "Chanukka"
+        }
       ]
     }
   ],
   "sentences": [
-    { "hebrew": "שָׁלוֹם, מַה שְּׁלוֹמְךָ?", "latin": "shalom, ma shlomcha?", "german": "Hallo, wie geht es dir?" },
-    { "hebrew": "הַשֵּׁם שֶׁלִּי דָּוִד", "latin": "hashem sheli david", "german": "Mein Name ist David" },
-    { "hebrew": "אֲנִי לוֹמֵד עִבְרִית", "latin": "ani lomed ivrit", "german": "Ich lerne Hebräisch" },
-    { "hebrew": "מָה זֶה?", "latin": "ma ze?", "german": "Was ist das?" },
-    { "hebrew": "אֲנִי רָעֵב", "latin": "ani ra'ev", "german": "Ich bin hungrig" },
-    { "hebrew": "אֲנִי צָמֵא", "latin": "ani tsame", "german": "Ich bin durstig" },
-    { "hebrew": "שְׁמַע יִשְׂרָאֵל", "latin": "shema yisrael", "german": "Höre, Israel!" },
-    { "hebrew": "בָּרוּךְ אַתָּה אֲדֹנָי", "latin": "baruch ata adonai", "german": "Gesegnet bist du, Herr" },
-    { "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים", "latin": "bereshit bara elohim", "german": "Am Anfang schuf Gott" },
-    { "hebrew": "הַיּוֹם יוֹם שַׁבָּת", "latin": "hayom yom shabbat", "german": "Heute ist Sabbat" },
-    { "hebrew": "אֲנִי מְדַבֵּר עִבְרִית", "latin": "ani medaber ivrit", "german": "Ich spreche Hebräisch" },
-    { "hebrew": "תּוֹדָה רַבָּה", "latin": "todah rabah", "german": "Vielen Dank" },
-    { "hebrew": "בֹּקֶר טוֹב", "latin": "boker tov", "german": "Guten Morgen" },
-    { "hebrew": "לַיְלָה טוֹב", "latin": "lailah tov", "german": "Gute Nacht" },
-    { "hebrew": "אֲנִי אוֹהֵב אוֹתְךָ", "latin": "ani ohev otcha", "german": "Ich liebe dich" },
-    { "hebrew": "אֵיפֹה הַבַּיִת?", "latin": "eifo habayit?", "german": "Wo ist das Haus?" },
-    { "hebrew": "אֲנִי קוֹרֵא סֵפֶר", "latin": "ani kore sefer", "german": "Ich lese ein Buch" },
-    { "hebrew": "הַמַּיִם טוֹבִים", "latin": "hamayim tovim", "german": "Das Wasser ist gut" },
-    { "hebrew": "הָאוֹר טוֹב", "latin": "ha'or tov", "german": "Das Licht ist gut" },
-    { "hebrew": "אֱמֶת וְשָׁלוֹם", "latin": "emet veshalom", "german": "Wahrheit und Frieden" },
-    { "hebrew": "בָּרוּךְ הַבָּא", "latin": "baruch haba", "german": "Willkommen (Gesegneter, der kommt)" },
-    { "hebrew": "אֲנִי מוֹרֶה", "latin": "ani moreh", "german": "Ich bin Lehrer" },
-    { "hebrew": "מָה הַשָּׁעָה?", "latin": "ma hasha'ah?", "german": "Wie spät ist es?" },
-    { "hebrew": "אֲנִי עָיֵף", "latin": "ani ayef", "german": "Ich bin müde" },
-    { "hebrew": "לְהִתְרָאוֹת מָחָר", "latin": "lehitraot machar", "german": "Bis morgen" }
+    {
+      "hebrew": "שָׁלוֹם, מַה שְּׁלוֹמְךָ?",
+      "latin": "shalom, ma shlomcha?",
+      "german": "Hallo, wie geht es dir?"
+    },
+    {
+      "hebrew": "הַשֵּׁם שֶׁלִּי דָּוִד",
+      "latin": "hashem sheli david",
+      "german": "Mein Name ist David"
+    },
+    {
+      "hebrew": "אֲנִי לוֹמֵד עִבְרִית",
+      "latin": "ani lomed ivrit",
+      "german": "Ich lerne Hebräisch"
+    },
+    {
+      "hebrew": "מָה זֶה?",
+      "latin": "ma ze?",
+      "german": "Was ist das?"
+    },
+    {
+      "hebrew": "אֲנִי רָעֵב",
+      "latin": "ani ra'ev",
+      "german": "Ich bin hungrig"
+    },
+    {
+      "hebrew": "אֲנִי צָמֵא",
+      "latin": "ani tsame",
+      "german": "Ich bin durstig"
+    },
+    {
+      "hebrew": "שְׁמַע יִשְׂרָאֵל",
+      "latin": "shema yisrael",
+      "german": "Höre, Israel!"
+    },
+    {
+      "hebrew": "בָּרוּךְ אַתָּה אֲדֹנָי",
+      "latin": "baruch ata adonai",
+      "german": "Gesegnet bist du, Herr"
+    },
+    {
+      "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים",
+      "latin": "bereshit bara elohim",
+      "german": "Am Anfang schuf Gott"
+    },
+    {
+      "hebrew": "הַיּוֹם יוֹם שַׁבָּת",
+      "latin": "hayom yom shabbat",
+      "german": "Heute ist Sabbat"
+    },
+    {
+      "hebrew": "אֲנִי מְדַבֵּר עִבְרִית",
+      "latin": "ani medaber ivrit",
+      "german": "Ich spreche Hebräisch"
+    },
+    {
+      "hebrew": "תּוֹדָה רַבָּה",
+      "latin": "todah rabah",
+      "german": "Vielen Dank"
+    },
+    {
+      "hebrew": "בֹּקֶר טוֹב",
+      "latin": "boker tov",
+      "german": "Guten Morgen"
+    },
+    {
+      "hebrew": "לַיְלָה טוֹב",
+      "latin": "lailah tov",
+      "german": "Gute Nacht"
+    },
+    {
+      "hebrew": "אֲנִי אוֹהֵב אוֹתְךָ",
+      "latin": "ani ohev otcha",
+      "german": "Ich liebe dich"
+    },
+    {
+      "hebrew": "אֵיפֹה הַבַּיִת?",
+      "latin": "eifo habayit?",
+      "german": "Wo ist das Haus?"
+    },
+    {
+      "hebrew": "אֲנִי קוֹרֵא סֵפֶר",
+      "latin": "ani kore sefer",
+      "german": "Ich lese ein Buch"
+    },
+    {
+      "hebrew": "הַמַּיִם טוֹבִים",
+      "latin": "hamayim tovim",
+      "german": "Das Wasser ist gut"
+    },
+    {
+      "hebrew": "הָאוֹר טוֹב",
+      "latin": "ha'or tov",
+      "german": "Das Licht ist gut"
+    },
+    {
+      "hebrew": "אֱמֶת וְשָׁלוֹם",
+      "latin": "emet veshalom",
+      "german": "Wahrheit und Frieden"
+    },
+    {
+      "hebrew": "בָּרוּךְ הַבָּא",
+      "latin": "baruch haba",
+      "german": "Willkommen (Gesegneter, der kommt)"
+    },
+    {
+      "hebrew": "אֲנִי מוֹרֶה",
+      "latin": "ani moreh",
+      "german": "Ich bin Lehrer"
+    },
+    {
+      "hebrew": "מָה הַשָּׁעָה?",
+      "latin": "ma hasha'ah?",
+      "german": "Wie spät ist es?"
+    },
+    {
+      "hebrew": "אֲנִי עָיֵף",
+      "latin": "ani ayef",
+      "german": "Ich bin müde"
+    },
+    {
+      "hebrew": "לְהִתְרָאוֹת מָחָר",
+      "latin": "lehitraot machar",
+      "german": "Bis morgen"
+    }
   ],
   "keyboardLayout": [
-    ["ק", "ר", "א", "ט", "ו", "ן", "ם", "פ"],
-    ["ש", "ד", "ג", "כ", "ע", "י", "ח", "ל", "ך", "ף"],
-    ["ז", "ס", "ב", "ה", "נ", "מ", "צ", "ת", "ץ"],
-    [" "]
+    [
+      "ק",
+      "ר",
+      "א",
+      "ט",
+      "ו",
+      "ן",
+      "ם",
+      "פ"
+    ],
+    [
+      "ש",
+      "ד",
+      "ג",
+      "כ",
+      "ע",
+      "י",
+      "ח",
+      "ל",
+      "ך",
+      "ף"
+    ],
+    [
+      "ז",
+      "ס",
+      "ב",
+      "ה",
+      "נ",
+      "מ",
+      "צ",
+      "ת",
+      "ץ"
+    ],
+    [
+      " "
+    ]
   ],
   "keyboardSounds": {
     "א": "stumm/a",
@@ -895,21 +1442,81 @@
     "ת": "t"
   },
   "typingExercises": [
-    { "latin": "shalom", "hebrew": "שלום", "german": "Frieden" },
-    { "latin": "mayim", "hebrew": "מים", "german": "Wasser" },
-    { "latin": "lechem", "hebrew": "לחם", "german": "Brot" },
-    { "latin": "sefer", "hebrew": "ספר", "german": "Buch" },
-    { "latin": "bayit", "hebrew": "בית", "german": "Haus" },
-    { "latin": "or", "hebrew": "אור", "german": "Licht" },
-    { "latin": "yom", "hebrew": "יום", "german": "Tag" },
-    { "latin": "esh", "hebrew": "אש", "german": "Feuer" },
-    { "latin": "tov", "hebrew": "טוב", "german": "gut" },
-    { "latin": "av", "hebrew": "אב", "german": "Vater" },
-    { "latin": "em", "hebrew": "אם", "german": "Mutter" },
-    { "latin": "lev", "hebrew": "לב", "german": "Herz" },
-    { "latin": "emet", "hebrew": "אמת", "german": "Wahrheit" },
-    { "latin": "ken", "hebrew": "כן", "german": "Ja" },
-    { "latin": "todah", "hebrew": "תודה", "german": "Danke" }
+    {
+      "latin": "shalom",
+      "hebrew": "שלום",
+      "german": "Frieden"
+    },
+    {
+      "latin": "mayim",
+      "hebrew": "מים",
+      "german": "Wasser"
+    },
+    {
+      "latin": "lechem",
+      "hebrew": "לחם",
+      "german": "Brot"
+    },
+    {
+      "latin": "sefer",
+      "hebrew": "ספר",
+      "german": "Buch"
+    },
+    {
+      "latin": "bayit",
+      "hebrew": "בית",
+      "german": "Haus"
+    },
+    {
+      "latin": "or",
+      "hebrew": "אור",
+      "german": "Licht"
+    },
+    {
+      "latin": "yom",
+      "hebrew": "יום",
+      "german": "Tag"
+    },
+    {
+      "latin": "esh",
+      "hebrew": "אש",
+      "german": "Feuer"
+    },
+    {
+      "latin": "tov",
+      "hebrew": "טוב",
+      "german": "gut"
+    },
+    {
+      "latin": "av",
+      "hebrew": "אב",
+      "german": "Vater"
+    },
+    {
+      "latin": "em",
+      "hebrew": "אם",
+      "german": "Mutter"
+    },
+    {
+      "latin": "lev",
+      "hebrew": "לב",
+      "german": "Herz"
+    },
+    {
+      "latin": "emet",
+      "hebrew": "אמת",
+      "german": "Wahrheit"
+    },
+    {
+      "latin": "ken",
+      "hebrew": "כן",
+      "german": "Ja"
+    },
+    {
+      "latin": "todah",
+      "hebrew": "תודה",
+      "german": "Danke"
+    }
   ],
   "topicLessons": [
     {
@@ -918,25 +1525,85 @@
       "icon": "👋",
       "description": "Shalom! Lerne dich auf Hebräisch vorzustellen.",
       "words": [
-        { "hebrew": "שָׁלוֹם", "latin": "shalom", "german": "Hallo/Frieden" },
-        { "hebrew": "לְהִתְרָאוֹת", "latin": "lehitraot", "german": "Auf Wiedersehen" },
-        { "hebrew": "תּוֹדָה", "latin": "todah", "german": "Danke" },
-        { "hebrew": "בְּבַקָּשָׁה", "latin": "bevakasha", "german": "Bitte/Gerne" },
-        { "hebrew": "כֵּן", "latin": "ken", "german": "Ja" },
-        { "hebrew": "לֹא", "latin": "lo", "german": "Nein" },
-        { "hebrew": "הַשֵּׁם שֶׁלִּי ...", "latin": "hashem sheli ...", "german": "Mein Name ist ..." },
-        { "hebrew": "מַה שְּׁלוֹמְךָ?", "latin": "ma shlomcha?", "german": "Wie geht es dir?" },
-        { "hebrew": "טוֹב, תּוֹדָה", "latin": "tov, todah", "german": "Gut, danke" },
-        { "hebrew": "בָּרוּךְ הַבָּא", "latin": "baruch haba", "german": "Willkommen" }
+        {
+          "hebrew": "שָׁלוֹם",
+          "latin": "shalom",
+          "german": "Hallo/Frieden"
+        },
+        {
+          "hebrew": "לְהִתְרָאוֹת",
+          "latin": "lehitraot",
+          "german": "Auf Wiedersehen"
+        },
+        {
+          "hebrew": "תּוֹדָה",
+          "latin": "todah",
+          "german": "Danke"
+        },
+        {
+          "hebrew": "בְּבַקָּשָׁה",
+          "latin": "bevakasha",
+          "german": "Bitte/Gerne"
+        },
+        {
+          "hebrew": "כֵּן",
+          "latin": "ken",
+          "german": "Ja"
+        },
+        {
+          "hebrew": "לֹא",
+          "latin": "lo",
+          "german": "Nein"
+        },
+        {
+          "hebrew": "הַשֵּׁם שֶׁלִּי ...",
+          "latin": "hashem sheli ...",
+          "german": "Mein Name ist ..."
+        },
+        {
+          "hebrew": "מַה שְּׁלוֹמְךָ?",
+          "latin": "ma shlomcha?",
+          "german": "Wie geht es dir?"
+        },
+        {
+          "hebrew": "טוֹב, תּוֹדָה",
+          "latin": "tov, todah",
+          "german": "Gut, danke"
+        },
+        {
+          "hebrew": "בָּרוּךְ הַבָּא",
+          "latin": "baruch haba",
+          "german": "Willkommen"
+        }
       ],
       "dialogues": [
         {
           "title": "Im Café",
           "lines": [
-            { "speaker": "A", "hebrew": "שָׁלוֹם! מַה שְּׁלוֹמְךָ?", "latin": "shalom! ma shlomcha?", "german": "Hallo! Wie geht es dir?" },
-            { "speaker": "B", "hebrew": "שָׁלוֹם! טוֹב, תּוֹדָה. וְאַתָּה?", "latin": "shalom! tov, todah. ve'ata?", "german": "Hallo! Gut, danke. Und du?" },
-            { "speaker": "A", "hebrew": "טוֹב. הַשֵּׁם שֶׁלִּי דָּוִד.", "latin": "tov. hashem sheli david.", "german": "Gut. Mein Name ist David." },
-            { "speaker": "B", "hebrew": "נָעִים מְאֹד! הַשֵּׁם שֶׁלִּי שָׂרָה.", "latin": "na'im me'od! hashem sheli sarah.", "german": "Sehr erfreut! Mein Name ist Sarah." }
+            {
+              "speaker": "A",
+              "hebrew": "שָׁלוֹם! מַה שְּׁלוֹמְךָ?",
+              "latin": "shalom! ma shlomcha?",
+              "german": "Hallo! Wie geht es dir?"
+            },
+            {
+              "speaker": "B",
+              "hebrew": "שָׁלוֹם! טוֹב, תּוֹדָה. וְאַתָּה?",
+              "latin": "shalom! tov, todah. ve'ata?",
+              "german": "Hallo! Gut, danke. Und du?"
+            },
+            {
+              "speaker": "A",
+              "hebrew": "טוֹב. הַשֵּׁם שֶׁלִּי דָּוִד.",
+              "latin": "tov. hashem sheli david.",
+              "german": "Gut. Mein Name ist David."
+            },
+            {
+              "speaker": "B",
+              "hebrew": "נָעִים מְאֹד! הַשֵּׁם שֶׁלִּי שָׂרָה.",
+              "latin": "na'im me'od! hashem sheli sarah.",
+              "german": "Sehr erfreut! Mein Name ist Sarah."
+            }
           ]
         }
       ],
@@ -948,25 +1615,85 @@
       "icon": "👨‍👩‍👧‍👦",
       "description": "Über deine Familie auf Hebräisch sprechen.",
       "words": [
-        { "hebrew": "אָב", "latin": "av", "german": "Vater" },
-        { "hebrew": "אֵם", "latin": "em", "german": "Mutter" },
-        { "hebrew": "אָח", "latin": "ach", "german": "Bruder" },
-        { "hebrew": "אָחוֹת", "latin": "achot", "german": "Schwester" },
-        { "hebrew": "בֵּן", "latin": "ben", "german": "Sohn" },
-        { "hebrew": "בַּת", "latin": "bat", "german": "Tochter" },
-        { "hebrew": "מִשְׁפָּחָה", "latin": "mishpacha", "german": "Familie" },
-        { "hebrew": "יֶלֶד", "latin": "yeled", "german": "Kind" },
-        { "hebrew": "אִישׁ", "latin": "ish", "german": "Mann" },
-        { "hebrew": "אִשָּׁה", "latin": "ishah", "german": "Frau" }
+        {
+          "hebrew": "אָב",
+          "latin": "av",
+          "german": "Vater"
+        },
+        {
+          "hebrew": "אֵם",
+          "latin": "em",
+          "german": "Mutter"
+        },
+        {
+          "hebrew": "אָח",
+          "latin": "ach",
+          "german": "Bruder"
+        },
+        {
+          "hebrew": "אָחוֹת",
+          "latin": "achot",
+          "german": "Schwester"
+        },
+        {
+          "hebrew": "בֵּן",
+          "latin": "ben",
+          "german": "Sohn"
+        },
+        {
+          "hebrew": "בַּת",
+          "latin": "bat",
+          "german": "Tochter"
+        },
+        {
+          "hebrew": "מִשְׁפָּחָה",
+          "latin": "mishpacha",
+          "german": "Familie"
+        },
+        {
+          "hebrew": "יֶלֶד",
+          "latin": "yeled",
+          "german": "Kind"
+        },
+        {
+          "hebrew": "אִישׁ",
+          "latin": "ish",
+          "german": "Mann"
+        },
+        {
+          "hebrew": "אִשָּׁה",
+          "latin": "ishah",
+          "german": "Frau"
+        }
       ],
       "dialogues": [
         {
           "title": "Über die Familie",
           "lines": [
-            { "speaker": "A", "hebrew": "כַּמָּה אֲנָשִׁים בַּמִּשְׁפָּחָה שֶׁלְּךָ?", "latin": "kama anashim bamishpacha shelcha?", "german": "Wie viele Menschen sind in deiner Familie?" },
-            { "speaker": "B", "hebrew": "חָמֵשׁ. אָב, אֵם, שְׁנֵי אַחִים וַאֲנִי.", "latin": "chamesh. av, em, shnei achim va'ani.", "german": "Fünf. Vater, Mutter, zwei Brüder und ich." },
-            { "speaker": "A", "hebrew": "יֵשׁ לְךָ אָחוֹת?", "latin": "yesh lecha achot?", "german": "Hast du eine Schwester?" },
-            { "speaker": "B", "hebrew": "לֹא, אֵין לִי אָחוֹת.", "latin": "lo, ein li achot.", "german": "Nein, ich habe keine Schwester." }
+            {
+              "speaker": "A",
+              "hebrew": "כַּמָּה אֲנָשִׁים בַּמִּשְׁפָּחָה שֶׁלְּךָ?",
+              "latin": "kama anashim bamishpacha shelcha?",
+              "german": "Wie viele Menschen sind in deiner Familie?"
+            },
+            {
+              "speaker": "B",
+              "hebrew": "חָמֵשׁ. אָב, אֵם, שְׁנֵי אַחִים וַאֲנִי.",
+              "latin": "chamesh. av, em, shnei achim va'ani.",
+              "german": "Fünf. Vater, Mutter, zwei Brüder und ich."
+            },
+            {
+              "speaker": "A",
+              "hebrew": "יֵשׁ לְךָ אָחוֹת?",
+              "latin": "yesh lecha achot?",
+              "german": "Hast du eine Schwester?"
+            },
+            {
+              "speaker": "B",
+              "hebrew": "לֹא, אֵין לִי אָחוֹת.",
+              "latin": "lo, ein li achot.",
+              "german": "Nein, ich habe keine Schwester."
+            }
           ]
         }
       ],
@@ -978,25 +1705,85 @@
       "icon": "🔢",
       "description": "Zahlen 1-10 und einfache Mengenangaben.",
       "words": [
-        { "hebrew": "אֶחָד", "latin": "echad", "german": "1 - Eins" },
-        { "hebrew": "שְׁנַיִם", "latin": "shnayim", "german": "2 - Zwei" },
-        { "hebrew": "שְׁלֹשָׁה", "latin": "shlosha", "german": "3 - Drei" },
-        { "hebrew": "אַרְבָּעָה", "latin": "arba'ah", "german": "4 - Vier" },
-        { "hebrew": "חֲמִשָּׁה", "latin": "chamisha", "german": "5 - Fünf" },
-        { "hebrew": "שִׁשָּׁה", "latin": "shisha", "german": "6 - Sechs" },
-        { "hebrew": "שִׁבְעָה", "latin": "shiv'ah", "german": "7 - Sieben" },
-        { "hebrew": "שֶׁקֶל", "latin": "shekel", "german": "Schekel (Währung)" },
-        { "hebrew": "כַּמָּה?", "latin": "kama?", "german": "Wie viel?" },
-        { "hebrew": "מִסְפָּר", "latin": "mispar", "german": "Nummer/Zahl" }
+        {
+          "hebrew": "אֶחָד",
+          "latin": "echad",
+          "german": "1 - Eins"
+        },
+        {
+          "hebrew": "שְׁנַיִם",
+          "latin": "shnayim",
+          "german": "2 - Zwei"
+        },
+        {
+          "hebrew": "שְׁלֹשָׁה",
+          "latin": "shlosha",
+          "german": "3 - Drei"
+        },
+        {
+          "hebrew": "אַרְבָּעָה",
+          "latin": "arba'ah",
+          "german": "4 - Vier"
+        },
+        {
+          "hebrew": "חֲמִשָּׁה",
+          "latin": "chamisha",
+          "german": "5 - Fünf"
+        },
+        {
+          "hebrew": "שִׁשָּׁה",
+          "latin": "shisha",
+          "german": "6 - Sechs"
+        },
+        {
+          "hebrew": "שִׁבְעָה",
+          "latin": "shiv'ah",
+          "german": "7 - Sieben"
+        },
+        {
+          "hebrew": "שֶׁקֶל",
+          "latin": "shekel",
+          "german": "Schekel (Währung)"
+        },
+        {
+          "hebrew": "כַּמָּה?",
+          "latin": "kama?",
+          "german": "Wie viel?"
+        },
+        {
+          "hebrew": "מִסְפָּר",
+          "latin": "mispar",
+          "german": "Nummer/Zahl"
+        }
       ],
       "dialogues": [
         {
           "title": "Auf dem Markt",
           "lines": [
-            { "speaker": "A", "hebrew": "שָׁלוֹם! כַּמָּה זֶה עוֹלֶה?", "latin": "shalom! kama ze oleh?", "german": "Hallo! Was kostet das?" },
-            { "speaker": "B", "hebrew": "עֲשָׂרָה שְׁקָלִים.", "latin": "asarah shkalim.", "german": "Zehn Schekel." },
-            { "speaker": "A", "hebrew": "זֶה יָקָר מְאֹד!", "latin": "ze yakar me'od!", "german": "Das ist sehr teuer!" },
-            { "speaker": "B", "hebrew": "שְׁמוֹנָה, בְּסֵדֶר?", "latin": "shmonah, beseder?", "german": "Acht, okay?" }
+            {
+              "speaker": "A",
+              "hebrew": "שָׁלוֹם! כַּמָּה זֶה עוֹלֶה?",
+              "latin": "shalom! kama ze oleh?",
+              "german": "Hallo! Was kostet das?"
+            },
+            {
+              "speaker": "B",
+              "hebrew": "עֲשָׂרָה שְׁקָלִים.",
+              "latin": "asarah shkalim.",
+              "german": "Zehn Schekel."
+            },
+            {
+              "speaker": "A",
+              "hebrew": "זֶה יָקָר מְאֹד!",
+              "latin": "ze yakar me'od!",
+              "german": "Das ist sehr teuer!"
+            },
+            {
+              "speaker": "B",
+              "hebrew": "שְׁמוֹנָה, בְּסֵדֶר?",
+              "latin": "shmonah, beseder?",
+              "german": "Acht, okay?"
+            }
           ]
         }
       ],
@@ -1008,25 +1795,85 @@
       "icon": "📜",
       "description": "Wichtige Wörter aus der Torah und dem Tanach.",
       "words": [
-        { "hebrew": "תּוֹרָה", "latin": "torah", "german": "Torah (Lehre)" },
-        { "hebrew": "בְּרֵאשִׁית", "latin": "bereshit", "german": "Am Anfang (Genesis)" },
-        { "hebrew": "אֱלֹהִים", "latin": "elohim", "german": "Gott" },
-        { "hebrew": "שָׁמַיִם", "latin": "shamayim", "german": "Himmel" },
-        { "hebrew": "אֶרֶץ", "latin": "erets", "german": "Erde/Land" },
-        { "hebrew": "אוֹר", "latin": "or", "german": "Licht" },
-        { "hebrew": "חֹשֶׁךְ", "latin": "choshech", "german": "Dunkelheit" },
-        { "hebrew": "אָדָם", "latin": "adam", "german": "Mensch/Adam" },
-        { "hebrew": "חַוָּה", "latin": "chavah", "german": "Eva/Leben" },
-        { "hebrew": "גַּן עֵדֶן", "latin": "gan eden", "german": "Garten Eden" }
+        {
+          "hebrew": "תּוֹרָה",
+          "latin": "torah",
+          "german": "Torah (Lehre)"
+        },
+        {
+          "hebrew": "בְּרֵאשִׁית",
+          "latin": "bereshit",
+          "german": "Am Anfang (Genesis)"
+        },
+        {
+          "hebrew": "אֱלֹהִים",
+          "latin": "elohim",
+          "german": "Gott"
+        },
+        {
+          "hebrew": "שָׁמַיִם",
+          "latin": "shamayim",
+          "german": "Himmel"
+        },
+        {
+          "hebrew": "אֶרֶץ",
+          "latin": "erets",
+          "german": "Erde/Land"
+        },
+        {
+          "hebrew": "אוֹר",
+          "latin": "or",
+          "german": "Licht"
+        },
+        {
+          "hebrew": "חֹשֶׁךְ",
+          "latin": "choshech",
+          "german": "Dunkelheit"
+        },
+        {
+          "hebrew": "אָדָם",
+          "latin": "adam",
+          "german": "Mensch/Adam"
+        },
+        {
+          "hebrew": "חַוָּה",
+          "latin": "chavah",
+          "german": "Eva/Leben"
+        },
+        {
+          "hebrew": "גַּן עֵדֶן",
+          "latin": "gan eden",
+          "german": "Garten Eden"
+        }
       ],
       "dialogues": [
         {
           "title": "Über die Torah",
           "lines": [
-            { "speaker": "A", "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ.", "latin": "bereshit bara elohim et hashamayim ve'et ha'arets.", "german": "Am Anfang schuf Gott den Himmel und die Erde." },
-            { "speaker": "B", "hebrew": "וַיֹּאמֶר אֱלֹהִים, יְהִי אוֹר.", "latin": "vayomer elohim, yehi or.", "german": "Und Gott sprach: Es werde Licht." },
-            { "speaker": "A", "hebrew": "וַיְהִי אוֹר.", "latin": "vayehi or.", "german": "Und es ward Licht." },
-            { "speaker": "B", "hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב.", "latin": "vayar elohim et ha'or ki tov.", "german": "Und Gott sah, dass das Licht gut war." }
+            {
+              "speaker": "A",
+              "hebrew": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ.",
+              "latin": "bereshit bara elohim et hashamayim ve'et ha'arets.",
+              "german": "Am Anfang schuf Gott den Himmel und die Erde."
+            },
+            {
+              "speaker": "B",
+              "hebrew": "וַיֹּאמֶר אֱלֹהִים, יְהִי אוֹר.",
+              "latin": "vayomer elohim, yehi or.",
+              "german": "Und Gott sprach: Es werde Licht."
+            },
+            {
+              "speaker": "A",
+              "hebrew": "וַיְהִי אוֹר.",
+              "latin": "vayehi or.",
+              "german": "Und es ward Licht."
+            },
+            {
+              "speaker": "B",
+              "hebrew": "וַיַּרְא אֱלֹהִים אֶת הָאוֹר כִּי טוֹב.",
+              "latin": "vayar elohim et ha'or ki tov.",
+              "german": "Und Gott sah, dass das Licht gut war."
+            }
           ]
         }
       ],
@@ -1038,25 +1885,85 @@
       "icon": "🕯️",
       "description": "Grundlegende Gebetsformeln und Segenssprüche.",
       "words": [
-        { "hebrew": "תְּפִלָּה", "latin": "tefillah", "german": "Gebet" },
-        { "hebrew": "בְּרָכָה", "latin": "bracha", "german": "Segen" },
-        { "hebrew": "בָּרוּךְ", "latin": "baruch", "german": "Gesegnet" },
-        { "hebrew": "אֲדֹנָי", "latin": "adonai", "german": "Herr" },
-        { "hebrew": "אָמֵן", "latin": "amen", "german": "Amen" },
-        { "hebrew": "קָדוֹשׁ", "latin": "kadosh", "german": "Heilig" },
-        { "hebrew": "שְׁמַע", "latin": "shema", "german": "Höre!" },
-        { "hebrew": "עוֹלָם", "latin": "olam", "german": "Welt/Ewigkeit" },
-        { "hebrew": "הַלְלוּיָהּ", "latin": "halleluyah", "german": "Lobet Gott!" },
-        { "hebrew": "חַיִּים", "latin": "chayyim", "german": "Leben" }
+        {
+          "hebrew": "תְּפִלָּה",
+          "latin": "tefillah",
+          "german": "Gebet"
+        },
+        {
+          "hebrew": "בְּרָכָה",
+          "latin": "bracha",
+          "german": "Segen"
+        },
+        {
+          "hebrew": "בָּרוּךְ",
+          "latin": "baruch",
+          "german": "Gesegnet"
+        },
+        {
+          "hebrew": "אֲדֹנָי",
+          "latin": "adonai",
+          "german": "Herr"
+        },
+        {
+          "hebrew": "אָמֵן",
+          "latin": "amen",
+          "german": "Amen"
+        },
+        {
+          "hebrew": "קָדוֹשׁ",
+          "latin": "kadosh",
+          "german": "Heilig"
+        },
+        {
+          "hebrew": "שְׁמַע",
+          "latin": "shema",
+          "german": "Höre!"
+        },
+        {
+          "hebrew": "עוֹלָם",
+          "latin": "olam",
+          "german": "Welt/Ewigkeit"
+        },
+        {
+          "hebrew": "הַלְלוּיָהּ",
+          "latin": "halleluyah",
+          "german": "Lobet Gott!"
+        },
+        {
+          "hebrew": "חַיִּים",
+          "latin": "chayyim",
+          "german": "Leben"
+        }
       ],
       "dialogues": [
         {
           "title": "Segnungen & Gebete",
           "lines": [
-            { "speaker": "A", "hebrew": "שְׁמַע יִשְׂרָאֵל, אֲדֹנָי אֱלֹהֵינוּ, אֲדֹנָי אֶחָד.", "latin": "shema yisrael, adonai eloheinu, adonai echad.", "german": "Höre Israel, der Herr unser Gott, der Herr ist Einer." },
-            { "speaker": "B", "hebrew": "בָּרוּךְ אַתָּה אֲדֹנָי, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם.", "latin": "baruch ata adonai, eloheinu melech ha'olam.", "german": "Gesegnet bist du, Herr, unser Gott, König der Welt." },
-            { "speaker": "A", "hebrew": "הַלְלוּיָהּ! קָדוֹשׁ, קָדוֹשׁ, קָדוֹשׁ.", "latin": "halleluyah! kadosh, kadosh, kadosh.", "german": "Halleluja! Heilig, heilig, heilig." },
-            { "speaker": "B", "hebrew": "אָמֵן.", "latin": "amen.", "german": "Amen." }
+            {
+              "speaker": "A",
+              "hebrew": "שְׁמַע יִשְׂרָאֵל, אֲדֹנָי אֱלֹהֵינוּ, אֲדֹנָי אֶחָד.",
+              "latin": "shema yisrael, adonai eloheinu, adonai echad.",
+              "german": "Höre Israel, der Herr unser Gott, der Herr ist Einer."
+            },
+            {
+              "speaker": "B",
+              "hebrew": "בָּרוּךְ אַתָּה אֲדֹנָי, אֱלֹהֵינוּ מֶלֶךְ הָעוֹלָם.",
+              "latin": "baruch ata adonai, eloheinu melech ha'olam.",
+              "german": "Gesegnet bist du, Herr, unser Gott, König der Welt."
+            },
+            {
+              "speaker": "A",
+              "hebrew": "הַלְלוּיָהּ! קָדוֹשׁ, קָדוֹשׁ, קָדוֹשׁ.",
+              "latin": "halleluyah! kadosh, kadosh, kadosh.",
+              "german": "Halleluja! Heilig, heilig, heilig."
+            },
+            {
+              "speaker": "B",
+              "hebrew": "אָמֵן.",
+              "latin": "amen.",
+              "german": "Amen."
+            }
           ]
         }
       ],
