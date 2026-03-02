@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#0F0F1A"/>
+  <!-- Owl body -->
+  <ellipse cx="256" cy="260" rx="120" ry="140" fill="#D4A574"/>
+  <!-- Eyes -->
+  <circle cx="220" cy="220" r="35" fill="#0F0F1A"/>
+  <circle cx="292" cy="220" r="35" fill="#0F0F1A"/>
+  <circle cx="225" cy="215" r="15" fill="#F0DCC0"/>
+  <circle cx="297" cy="215" r="15" fill="#F0DCC0"/>
+  <circle cx="228" cy="212" r="6" fill="#0F0F1A"/>
+  <circle cx="300" cy="212" r="6" fill="#0F0F1A"/>
+  <!-- Beak -->
+  <polygon points="256,245 248,260 264,260" fill="#0F0F1A"/>
+  <!-- Ears -->
+  <polygon points="190,150 210,200 170,190" fill="#D4A574"/>
+  <polygon points="322,150 302,200 342,190" fill="#D4A574"/>
+  <!-- Text -->
+  <text x="256" y="450" text-anchor="middle" font-family="serif" font-size="72" fill="#F0DCC0" direction="rtl" unicode-bidi="bidi-override">یاد</text>
+</svg>

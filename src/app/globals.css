@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-yad-bg: #0F0F1A;
+  --color-yad-card: #1A1A2E;
+  --color-yad-warm: #F0DCC0;
+  --color-yad-gold: #5B8DB8;
+  --color-yad-green: #3D7A55;
+  --color-yad-red: #C0392B;
+  --color-yad-card-hover: #252540;
+  --font-hebrew: var(--font-frank-ruhl-libre);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+html, body {
+  overflow: hidden;
+  overscroll-behavior: none;
+  height: 100dvh;
+}
+
+.hebrew {
+  font-family: var(--font-frank-ruhl-libre), 'Noto Serif Hebrew', serif;
+  direction: rtl;
+}
+
+.hebrew-large {
+  font-family: var(--font-frank-ruhl-libre), 'Noto Serif Hebrew', serif;
+  direction: rtl;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+.card-flip {
+  perspective: 1000px;
+}
+
+.card-flip-inner {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.card-flip-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideOut {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(-30px); }
+}
+
+.slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-slideOut {
+  animation: slideOut 0.2s ease-out;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.pop-in {
+  animation: popIn 0.2s ease-out;
+}
+
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
