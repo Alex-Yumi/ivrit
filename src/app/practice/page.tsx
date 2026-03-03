@@ -100,16 +100,19 @@ export default function PracticePage() {
         options: [...wrongNames, letter.name].sort(() => Math.random() - 0.5),
       });
 
-      // Type 3: Form quiz — which form is this?
-      const forms = Object.keys(FORM_LABELS) as FormKey[];
-      const randomForm = forms[Math.floor(Math.random() * forms.length)];
-      qs.push({
-        type: 'form-quiz',
-        question: `Welche Form von "${letter.name}" ist das?`,
-        questionHebräisch: letter.forms[randomForm],
-        answer: FORM_LABELS[randomForm],
-        options: Object.values(FORM_LABELS).sort(() => Math.random() - 0.5),
-      });
+      // Type 3: Form quiz — only for letters with different Sofit forms
+      const uniqueForms = new Set(Object.values(letter.forms));
+      if (uniqueForms.size > 1) {
+        const forms = Object.keys(FORM_LABELS) as FormKey[];
+        const randomForm = forms[Math.floor(Math.random() * forms.length)];
+        qs.push({
+          type: 'form-quiz',
+          question: `Welche Form von "${letter.name}" ist das?`,
+          questionHebräisch: letter.forms[randomForm],
+          answer: FORM_LABELS[randomForm],
+          options: Object.values(FORM_LABELS).sort(() => Math.random() - 0.5),
+        });
+      }
     }
 
     // Shuffle and limit to 15 questions
